@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #150303;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 25px;
+    font-weight: bold;
+    font-size: large;
+    position: fixed;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    margin-top: 15px;
+}
+
+header li {
+    display: inline;
+    padding: 10px;
+}
+
+header li a {
+    border-radius: 8px;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+header li a:hover {
+    background-color: #4caf50;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.Welcome {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.cont {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 11%;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+.cont p {
+    color: #fff;
+    padding: 10px;
+}
+
+.icons i {
+    padding-left: 10px;
+}
+
+/* Gallery */
+.gallery {
+    padding: 30px;
+    background-color: #150303;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.gall {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 30%;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item:hover {
+    background-color: blanchedalmond;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item h2 {
+    color: #150303;
+    font-size: 20px;
+    margin: 2%;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #4caf50;
+}
+
+/* About */
+.co {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.name {
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-content {
+    flex: 2;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.about-content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4caf50;
+    border-bottom: 2px solid #666;
+    padding-bottom: 10px;
+}
+
+.about-content p {
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Contact */
+.mon h1 {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+main {
+    max-width: 800px;
+    height: 95%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+main h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #4caf50;
+}
+
+.contact-form, .contact-info {
+    margin-bottom: 10px;
+}
+
+.formm {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1.5px solid #ccc;
+    border-radius: 7px;
+}
+
+button {
+    display: inline-block;
+    background: #666;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4caf50;
+}
+
+.contact-info {
+    margin-bottom: 50px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: antiquewhite;
+    color: #150303;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+    .gall {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-image, .about-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .header li {
+        padding: 5px;
+    }
+
+    .gallery {
+        padding: 20px;
+    }
+
+    .gallery h2 {
+        font-size: 24px;
+    }
+
+    .cont h2 {
+        font-size: 24px;
+    }
+
+    .contact-form, .contact-info {
+        padding: 10px;
+    }
+
+    .contact-form .form, .contact-form .formm {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 15px;
+    }
+}
